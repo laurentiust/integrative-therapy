@@ -1650,3 +1650,7 @@ ol.search-results {
 #socialbar ul li {
     margin-right: -15px;
 }
+
+.content-sidebar-wrap .page-title {
+    display: none;
+}
