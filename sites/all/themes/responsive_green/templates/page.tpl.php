@@ -74,9 +74,9 @@
          <div id="socialbar">
             <ul class="social">
             <?php $options['attributes'] = array('target' => '_blank'); ?>
-              <li class="fb"><a href="#"></a></li>
-              <li class="tw"><a href="#"></a></li>
-              <li class="ln"><a href="#"></a></li>
+            <?php if ($facebook): ?><li class="fb"><?php print l(t(''), $facebook, '#'); ?></li> <?php endif; ?>
+            <?php if ($twitter): ?><li class="tw"><?php print l(t(''), $twitter, '#'); ?></li> <?php endif; ?>
+            <?php if ($linkedin): ?><li class="ln"><?php print l(t(''), $linkedin, '#'); ?></li> <?php endif; ?>
             </ul>
           </div>
         <?php endif; ?>

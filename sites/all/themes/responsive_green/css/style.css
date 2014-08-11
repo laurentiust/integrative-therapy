@@ -303,14 +303,15 @@ audio {
 }
 
 .content a img {
-  padding: 5px;
-  box-shadow: 0 0 3px #eee;
+  padding: 10px;
+  box-shadow: 0 0 30px #8D8787;
   background: #fff;
   border: #eee 1px solid;
 }
 
 .content a:hover img {
   background: #f0f0F0;
+  opacity: 1;
 }
 
 .marker, .form-required {
@@ -1565,11 +1566,13 @@ ol.search-results {
   float: right;
   max-width: 370px;
   margin-right: 12px;
+  font-size: 10px;
   text-align: right;
 }
 
 #copyright p {
   margin: 0;
+  font-size: 10px;
 }
 
 .footer_credit {
@@ -1611,5 +1614,26 @@ ol.search-results {
 }
 
 .pane-content .view-display-id-default {
-    margin-top: 50px;
+     margin-top: 50px;
+ }
+
+.node-type-tratamente .page-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.views-field-field-imagine-principala img {
+    opacity: 0.2;
+}
+
+#edit-body-und-0-format {
+    display: none;
+}
+
+#field-slideshow-1-controls a {
+    margin: 10px;
+}
+
+#field-slideshow-1-controls {
+    margin-bottom: 25px;
 }

@@ -12,7 +12,7 @@ table.field-ui-overview tr.add-new .tabledrag-changed {
 }
 table.field-ui-overview tr.add-new .description {
   margin-bottom: 0;
-  max-width: 250px;
+  max-width: 220px;
 }
 table.field-ui-overview tr.add-new .form-type-machine-name .description {
   white-space: normal;

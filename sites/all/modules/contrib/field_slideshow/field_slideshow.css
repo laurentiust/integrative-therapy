@@ -1,6 +1,9 @@
 .field-slideshow {
   overflow: hidden;
   max-width: 100%;
+  margin-left: 380px;
+  margin-bottom: -15px!important;
+  padding-bottom: 0px!important;
 }
 
 .field-slideshow-slide, .field-slideshow-slide a, .field-slideshow-slide img {
@@ -38,4 +41,12 @@
 
 .field-slideshow-controls .play {
   display: none;
+}
+
+.field-slideshow-wrapper {
+  text-align: center;
+}
+
+.field-slideshow-caption {
+  max-width: 220px;
 }
