@@ -1654,3 +1654,7 @@ ol.search-results {
 .content-sidebar-wrap .page-title {
     display: none;
 }
+
+.view-tratamente .view-content .views-view-grid td{
+    max-width: 220px;
+}
