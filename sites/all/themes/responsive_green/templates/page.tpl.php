@@ -100,9 +100,9 @@
       <div class="flexslider-container">
         <div id="single-post-slider" class="flexslider">
           <ul class="slides">
-            <li class="fb"><a href="#"></a></li>
-            <li class="tw"><a href="#"></a></li>
-            <li class="ln"><a href="#"></a></li>
+            <li class="slide" style="display:none;"><img src="<?php print $img1;?>"alt="Slide1"/></li>
+            <li class="slide" style="display:none;"><img src="<?php print $img2;?>"alt="Slide2"/></li>
+            <li class="slide" style="display:none;"><img src="<?php print $img3;?>" alt="Slide3"/></li>
           </ul><!-- /slides -->
         </div><!-- /flexslider -->
       </div>
