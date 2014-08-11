@@ -332,7 +332,7 @@ audio {
 }
 
 .menu_wrapper {
-  background-color: #00a99d;
+  /*background-color: #00a99d;*/
   border-bottom: 0 solid #00a99d;
   border-top: 0 solid #00a99d;
   display: block;
@@ -1515,8 +1515,8 @@ ol.search-results {
 #footer {
   clear: both;
   color: rgb(34, 34, 34);
-  background: none repeat scroll 0 0 #00a99d;
-  border-top: 1px solid #cfd7db;
+  /*background: none repeat scroll 0 0 #00a99d;*/
+  /*border-top: 1px solid #cfd7db;*/
 }
 
 #footer_wrapper{
@@ -1636,4 +1636,17 @@ ol.search-results {
 
 #field-slideshow-1-controls {
     margin-bottom: 25px;
+}
+
+#logo {
+    margin-bottom: -40px;
+}
+
+#socialbar {
+    margin-top: 75px;
+    margin-right: 35px;
+}
+
+#socialbar ul li {
+    margin-right: -15px;
 }
