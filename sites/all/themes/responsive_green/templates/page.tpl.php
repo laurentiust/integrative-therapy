@@ -74,9 +74,9 @@
          <div id="socialbar">
             <ul class="social">
             <?php $options['attributes'] = array('target' => '_blank'); ?>
-            <?php if ($facebook): ?><li class="fb"><?php print l(t(''), $facebook, '#'); ?></li> <?php endif; ?>
-            <?php if ($twitter): ?><li class="tw"><?php print l(t(''), $twitter, '#'); ?></li> <?php endif; ?>
-            <?php if ($linkedin): ?><li class="ln"><?php print l(t(''), $linkedin, '#'); ?></li> <?php endif; ?>
+              <li class="fb"><a href="#"></a></li>
+              <li class="tw"><a href="#"></a></li>
+              <li class="ln"><a href="#"></a></li>
             </ul>
           </div>
         <?php endif; ?>
@@ -100,9 +100,9 @@
       <div class="flexslider-container">
         <div id="single-post-slider" class="flexslider">
           <ul class="slides">
-            <li class="slide" style="display:none;"><img src="<?php print $img1;?>"alt="Slide1"/></li>
-            <li class="slide" style="display:none;"><img src="<?php print $img2;?>"alt="Slide2"/></li>
-            <li class="slide" style="display:none;"><img src="<?php print $img3;?>" alt="Slide3"/></li>
+            <li class="fb"><a href="#"></a></li>
+            <li class="tw"><a href="#"></a></li>
+            <li class="ln"><a href="#"></a></li>
           </ul><!-- /slides -->
         </div><!-- /flexslider -->
       </div>
