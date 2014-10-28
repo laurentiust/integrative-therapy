@@ -86,7 +86,7 @@ function contact_menu() {
     'file' => 'contact.admin.inc',
   );
   $items['contact'] = array(
-    'title' => 'Contact',
+    'title' => '',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('contact_site_form'),
     'access arguments' => array('access site-wide contact form'),

@@ -94,6 +94,7 @@ function contact_site_form($form, &$form_state) {
     '#type' => 'textarea',
     '#title' => t('Message'),
     '#required' => TRUE,
+    '#rows' => 7,
   );
   // We do not allow anonymous users to send themselves a copy
   // because it can be abused to spam people.

@@ -267,6 +267,10 @@ q:before, q:after {
   content: none;
 }
 
+#block-block-1 .content {
+  text-align: center;
+}
+
 strong {
   font-weight: bold;
 }
@@ -304,14 +308,14 @@ audio {
 
 .content a img {
   padding: 10px;
-  box-shadow: 0 0 30px #8D8787;
+  /*box-shadow: 0 0 30px #8D8787;*/
   background: #fff;
-  border: #eee 1px solid;
+  /*border: #eee 1px solid;*/
 }
 
 .content a:hover img {
-  background: #f0f0F0;
-  opacity: 1;
+  /*background: #f0f0F0;*/
+  /*opacity: 0.6;*/
 }
 
 .marker, .form-required {
@@ -336,15 +340,18 @@ audio {
   border-bottom: 0 solid #00a99d;
   border-top: 0 solid #00a99d;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   padding: 13px 0 14px;
   position: relative;
   z-index: 99;
 }
 
 #logo {
+  position: absolute;
   float: left;
-  margin: 15px 10px;
+  margin: 15px 380px;
+  margin-top: 10px;
+  z-index: 1000;
 }
 
 #site-title a,
@@ -406,18 +413,26 @@ audio {
   font-size: 18px;
 }
 
+#main-menu ul li:nth-child(4) {
+  margin-left: 315px!important;
+}
+
+
 #main-menu ul li:first-child {
   padding-left: 0;
+}
+
+#main-menu {
+  text-transform: uppercase;
 }
 
 #main-menu a {
   border-radius: 5px 5px 5px 5px;
   color: #343434;
   display: block;
-  padding: 8px 12px;
+  padding: 8px 2px;
   text-align: center;
   text-decoration: none;
-  text-transform: capitalize;
 }
 
 #main-menu a:hover,
@@ -1597,33 +1612,46 @@ ol.search-results {
   color:#ffffff;
 }
 
-.view-tratamente .views-view-grid {
+.view-tratamente .views-view-grid,
+.view-oferte .views-view-grid,
+.view-terapeuti .views-view-grid {
     border: none;
 }
 
+.view-terapeuti .views-view-grid .field-content,
+.view-terapeuti .views-field-title,
+.view-oferte .views-view-grid .field-content,
+.view-oferte .views-field-title,
 .view-tratamente .views-view-grid .field-content,
-.view-id-tratamente .views-field-title{
+.view-id-tratamente .views-field-title {
     text-align:center;
 }
 
 .menu-navigation-container {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 #main-menu ul.menu li {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .pane-content .view-display-id-default {
      margin-top: 50px;
  }
 
-.node-type-tratamente .page-title {
+.node-type-tratamente .page-title,
+.node-type-oferte .page-title,
+.node-type-terapeuti .page-title {
     text-align: center;
     margin-bottom: 25px;
 }
-
+.views-field-field-imagine-terapeut img,
+.views-field-field-imagine-oferta img,
 .views-field-field-imagine-principala img {
-    opacity: 0.2;
+    opacity: 0.65;
+}
+
+.opacity-none {
+  opacity: 1;
 }
 
 #edit-body-und-0-format {
@@ -1635,11 +1663,7 @@ ol.search-results {
 }
 
 #field-slideshow-1-controls {
-    margin-bottom: 25px;
-}
-
-#logo {
-    margin-bottom: -40px;
+    margin-bottom: 10px;
 }
 
 #socialbar {
@@ -1652,9 +1676,110 @@ ol.search-results {
 }
 
 .content-sidebar-wrap .page-title {
-    display: none;
+  margin-top: 15px;
+  margin-right: 20px;
+    /*display: none;*/
 }
 
 .view-tratamente .view-content .views-view-grid td{
     max-width: 220px;
+}
+
+body {
+  font-family: 'Webly SleekNormal'!important;
+}
+
+#simplenews-block-form-2 .form-item-mail label {
+  display: none;
+}
+
+#simplenews-block-form-2 .form-item-mail input {
+  float: left;
+  background: #BFF0ED;
+  opacity: 0.7;
+  height: 25px;
+}
+
+#simplenews-block-form-2 input[type="submit"] {
+  position: absolute;
+  margin-top: 2px;
+  border-radius: 0px;
+  padding: 9px;
+  margin-left: -2px;
+}
+
+#home-slider {
+  margin-bottom: 50px;
+}
+
+.panel-3col-33 .pane-2 {
+  /*margin-top: 60px;*/
+  margin-left: 15px;
+}
+
+.panel-3col-33 .pane-3 .pane-content {
+  margin-top: 90px;
+  margin-right: 45px;
+}
+
+.panel-3col-33 .pane-block-2 {
+  text-align: center;
+}
+
+.panel-3col-33 .panel-col-first .inside {
+  margin-left: 65px;
+}
+.pane-block-2 .pane-content img {
+  opacity: 0.5;
+}
+
+.pane-block-2 .pane-content img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.views-field-field-imagine-principala img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.views-field-field-imagine-terapeut img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.views-field-field-imagine-oferta img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.view-id-tratamente,
+.view-id-terapeuti,
+.view-id-oferte {
+  margin-top: 20px;
+  margin-left: -25px;
+}
+
+.node-tratamente .field-items,
+.node-oferte .field-items,
+.node-terapeuti .field-items {
+  font-family: 'Webly SleekNormal'!important;
+  font-size: 16px!important;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.view-content .views-field-title {
+  margin-top: -11px;
+  margin-bottom: 25px;
+}
+
+.pane-node .pane-title {
+  text-align: center;
+}
+
+.field-name-field-imagine-terapeut .field-items {
+  text-align: center!important;
 }

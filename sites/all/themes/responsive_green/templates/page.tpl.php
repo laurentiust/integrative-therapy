@@ -73,10 +73,6 @@
       <?php if ($display): ?>
          <div id="socialbar">
             <ul class="social">
-            <?php $options['attributes'] = array('target' => '_blank'); ?>
-              <li class="fb"><a href="#"></a></li>
-              <li class="tw"><a href="#"></a></li>
-              <li class="ln"><a href="#"></a></li>
             </ul>
           </div>
         <?php endif; ?>
@@ -103,6 +99,7 @@
             <li class="slide" style="display:none;"><img src="<?php print $img1;?>"alt="Slide1"/></li>
             <li class="slide" style="display:none;"><img src="<?php print $img2;?>"alt="Slide2"/></li>
             <li class="slide" style="display:none;"><img src="<?php print $img3;?>" alt="Slide3"/></li>
+            <li class="slide" style="display:none;"><img src="<?php print $img4;?>" alt="Slide4"/></li>
           </ul><!-- /slides -->
         </div><!-- /flexslider -->
       </div>

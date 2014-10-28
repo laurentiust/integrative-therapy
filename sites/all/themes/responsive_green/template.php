@@ -80,6 +80,7 @@ function responsive_green_preprocess_page(&$vars) {
   $vars['img1'] = base_path() . drupal_get_path('theme', 'responsive_green') . '/images/slide-image-1.jpg';
   $vars['img2'] = base_path() . drupal_get_path('theme', 'responsive_green') . '/images/slide-image-2.jpg';
   $vars['img3'] = base_path() . drupal_get_path('theme', 'responsive_green') . '/images/slide-image-3.jpg';
+  $vars['img4'] = base_path() . drupal_get_path('theme', 'responsive_green') . '/images/slide-image-4.jpg';
 }
 /**
  * Add Google Fonts.
