@@ -1783,3 +1783,9 @@ body {
 .field-name-field-imagine-terapeut .field-items {
   text-align: center!important;
 }
+
+#tratamente-node-form .vertical-tabs,
+#terapii-node-form .vertical-tabs,
+#oferte-node-form.vertical-tabs {
+  display: none;
+}
