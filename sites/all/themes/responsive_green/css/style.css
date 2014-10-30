@@ -1785,7 +1785,28 @@ body {
 }
 
 #tratamente-node-form .vertical-tabs,
-#terapii-node-form .vertical-tabs,
-#oferte-node-form.vertical-tabs {
+#oferte-node-form .vertical-tabs,
+#terapeuti-node-form .vertical-tabs {
   display: none;
+}
+
+#search-form #edit-basic label[for=edit-keys] {
+  display: none;
+}
+
+#search-form #edit-basic #edit-keys,
+#search-block-form input[name="search_block_form"]{
+  background: #BFF0ED;
+  opacity: 0.7;
+}
+
+#search-block-form input[name="search_block_form"] {
+}
+
+#search-form input[type="submit"],
+#search-block-form  input[type="submit"] {
+  margin-left: -5px;
+  margin-bottom: 5px;
+  height: 26px;
+  border-radius: 0px;
 }
