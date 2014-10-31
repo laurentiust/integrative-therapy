@@ -1731,6 +1731,12 @@ body {
   text-align: center;
 }
 
+.panel-3col-33 .panel-col-first,
+.panel-3col-33 .panel-col-last,
+.panel-3col-33 .pane-custom {
+  min-width: 200px;
+}
+
 .panel-3col-33 .panel-col-first .inside {
   margin-left: 65px;
 }
