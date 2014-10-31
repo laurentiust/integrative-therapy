@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'WeblySleek UI Semilight';
+  src: url(../fonts/weblysleekuisl.ttf);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,7 +20,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: 'Vollkorn',arial,serif;
+  font: 'WeblySleek UI Semilight',arial,serif;
   vertical-align: baseline;
 }
 
@@ -69,7 +74,7 @@ table {
 
 body {
   color: #333333;
-  font-family: 'Vollkorn',arial,serif;
+  font-family: 'WeblySleek UI Semilight',arial,serif;
   font-size: 14px;
   line-height: 1.5em;
 }
@@ -80,7 +85,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Vollkorn',arial,serif;
+  font-family: 'WeblySleek UI Semilight',arial,serif;
   margin-bottom: 6px;
   line-height: 125%;
 }
@@ -409,7 +414,7 @@ audio {
   float: left;
   padding: 0;
   margin: 0;
-  font-family: 'Vollkorn',arial,serif;
+  font-family: 'WeblySleek UI Semilight',arial,serif;
   font-size: 18px;
 }
 
@@ -794,7 +799,7 @@ body.sidebar-second #sidebar-second {
 .block > h2{
   border-bottom: 1px solid #ccc;
   color: #555;
-  font-family: Vollkorn,arial,serif;
+  font-family: 'WeblySleek UI Semilight',arial,serif;
   font-size: 24px;
   font-weight: normal;
   margin: 5px 0px;
@@ -1045,7 +1050,7 @@ ul.secondary a.active {
 
 #forum .submitted {
   font-size: 12px;
-  font-family: Lucida Grande, Verdana, Arial, sans-serif;
+  font-family: WeblySleek UI Semilight, Verdana, Arial, sans-serif;
   background: transparent;
   padding: 0;
 }
@@ -1594,7 +1599,7 @@ ol.search-results {
   background: #000;
   border-top: 1px solid rgb(59, 60, 61);
   color: #777;
-  font-family: Arial;
+  font-family: WeblySleek UI Semilight;
   overflow: auto;
   padding: 10px;
 }
@@ -1686,7 +1691,7 @@ ol.search-results {
 }
 
 body {
-  font-family: 'Webly SleekNormal'!important;
+  font-family: 'WeblySleek UI Semilight'!important;
 }
 
 #simplenews-block-form-2 .form-item-mail label {
@@ -1763,7 +1768,7 @@ body {
 .node-tratamente .field-items,
 .node-oferte .field-items,
 .node-terapeuti .field-items {
-  font-family: 'Webly SleekNormal'!important;
+  font-family: 'WeblySleek UI Semilight'!important;
   font-size: 16px!important;
   text-align: justify;
   margin-left: 50px;
