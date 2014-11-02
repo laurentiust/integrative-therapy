@@ -419,7 +419,7 @@ audio {
 }
 
 #main-menu ul li:nth-child(4) {
-  margin-left: 315px!important;
+  margin-left: 340px!important;
 }
 
 
@@ -591,7 +591,7 @@ audio {
 }
 
 .slides {
-  width: 100%;
+  width: 96%;
   overflow: hidden;
 }
 
@@ -660,11 +660,15 @@ audio {
   display: none;
 }
 
+#single-post-slider {
+  margin-left: 40px;
+}
+
 #single-post-slider .slides img{
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: 0 8px 6px -6px black;
+  /*border: 1px solid #cccccc;*/
+  /*-webkit-box-shadow: 0 8px 6px -6px black;*/
   -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+  /*box-shadow: 0 8px 6px -6px black;*/
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -1571,10 +1575,20 @@ ol.search-results {
 }
 
 #copyright {
-  font-size: 12px;
+  color: #000000;
+  font-size: 14px;
   clear: both;
   padding: 0 0px;
   line-height: 40px;
+}
+
+#copyright a {
+  color: #000000;
+}
+
+#copyright a:hover {
+  text-decoration: underline;
+  transition: 1s;
 }
 
 .copyright {
@@ -1596,8 +1610,8 @@ ol.search-results {
 }
 
 .footer_credit {
-  background: #000;
-  border-top: 1px solid rgb(59, 60, 61);
+  background: #9B9B9B;
+  border-top: 1px solid #9B9B9B;
   color: #777;
   font-family: WeblySleek UI Semilight;
   overflow: auto;
@@ -1629,14 +1643,14 @@ ol.search-results {
 .view-oferte .views-field-title,
 .view-tratamente .views-view-grid .field-content,
 .view-id-tratamente .views-field-title {
-    text-align:center;
+  text-align:center;
 }
 
 .menu-navigation-container {
     /*margin-left: 150px;*/
 }
 #main-menu ul.menu li {
-    margin-left: 40px;
+    margin-left: 38px;
 }
 
 .pane-content .view-display-id-default {
@@ -1652,7 +1666,7 @@ ol.search-results {
 .views-field-field-imagine-terapeut img,
 .views-field-field-imagine-oferta img,
 .views-field-field-imagine-principala img {
-    opacity: 0.65;
+    opacity: 0.8;
 }
 
 .opacity-none {
@@ -1771,6 +1785,18 @@ body {
   margin-left: -25px;
 }
 
+.view-id-tratamente .views-field-title a,
+.view-id-terapeuti .views-field-title a,
+.view-id-oferte .views-field-title a {
+  color: #000000;
+}
+
+.view-id-tratamente .views-field-title a:hover,
+.view-id-terapeuti .views-field-title a:hover,
+.view-id-oferte .views-field-title a:hover {
+  text-decoration: underline;
+}
+
 .node-tratamente .field-items,
 .node-oferte .field-items,
 .node-terapeuti .field-items {
@@ -1805,10 +1831,15 @@ body {
   display: none;
 }
 
-#search-form #edit-basic #edit-keys,
+#search-form #edit-basic #edit-keys {
+  background: #BFF0ED;
+  opacity: 0.7;
+}
+
 #search-block-form input[name="search_block_form"]{
   background: #BFF0ED;
   opacity: 0.7;
+  margin-top: 1px;
 }
 
 #search-block-form input[name="search_block_form"] {
