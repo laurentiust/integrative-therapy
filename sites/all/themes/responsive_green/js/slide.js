@@ -9,7 +9,7 @@ attach: function (context, settings) {
   $(window).load(function() {
     $("#single-post-slider").flexslider({
       animation: 'fade',
-      animationSpeed: 1000,
+      animationSpeed: 2000,
       slideshow: true,
       controlNav: true,
       smoothHeight: true,
