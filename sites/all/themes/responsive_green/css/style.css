@@ -354,7 +354,7 @@ audio {
 #logo {
   position: absolute;
   float: left;
-  margin: 15px 380px;
+  margin: 15px 370px;
   margin-top: 10px;
   z-index: 1000;
 }
@@ -623,6 +623,7 @@ audio {
   margin-top: 10px;
   text-align: center;
   width: 100%;
+  margin-left: -25px;
 }
 
 .flex-control-nav li a{
@@ -661,7 +662,7 @@ audio {
 }
 
 #single-post-slider {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 #single-post-slider .slides img{
@@ -669,7 +670,7 @@ audio {
   /*-webkit-box-shadow: 0 8px 6px -6px black;*/
   -moz-box-shadow: 0 8px 6px -6px black;
   /*box-shadow: 0 8px 6px -6px black;*/
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 #slider .post {
@@ -1647,7 +1648,7 @@ ol.search-results {
 }
 
 .menu-navigation-container {
-    /*margin-left: 150px;*/
+  margin-left: 4px;
 }
 #main-menu ul.menu li {
     margin-left: 38px;
