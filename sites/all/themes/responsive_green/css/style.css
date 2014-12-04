@@ -566,7 +566,7 @@ audio {
   list-style: none;
 }
 #main-menu ul.menu li {
-  margin: 0 3px 0 0;
+  margin: 0 10px 0 0;
 }
 
 #main-menu li.expanded, #main-menu li.collapsed, #main-menu li.leaf {
@@ -1648,10 +1648,12 @@ ol.search-results {
 }
 
 .menu-navigation-container {
-  margin-left: 4px;
+  margin-left: 35px;
+  min-width: 920px;
 }
+
 #main-menu ul.menu li {
-    margin-left: 38px;
+    margin-left: 20px;
 }
 
 .pane-content .view-display-id-default {
