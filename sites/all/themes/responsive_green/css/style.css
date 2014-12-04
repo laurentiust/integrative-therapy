@@ -1811,6 +1811,10 @@ body {
   margin-top: 20px;
 }
 
+.node-tratamente .field-name-field-imagine-principala .field-item {
+  text-align: center;
+}
+
 .view-content .views-field-title {
   margin-top: -11px;
   margin-bottom: 25px;
