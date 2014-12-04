@@ -1,3 +1,5 @@
 name = Integrative Therapy General Settings
 description = Provides general settings for the entire site.
 core = "7.x"
+package = NM Integrative Therapy
+
