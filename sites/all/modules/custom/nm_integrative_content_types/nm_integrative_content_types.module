@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NM-Integrative Content Types feature.
+ */
+
+include_once 'nm_integrative_content_types.features.inc';
