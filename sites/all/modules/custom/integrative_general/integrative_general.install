@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_enable.
+ */
+function integrative_general_enable() {
+  module_enable(array('nm_integrative_content_types'));
+}
