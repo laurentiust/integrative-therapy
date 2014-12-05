@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NM-Integrative Views feature.
+ */
+
+include_once 'nm_integrative_views.features.inc';

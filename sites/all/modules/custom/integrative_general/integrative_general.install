@@ -6,3 +6,15 @@
 function integrative_general_enable() {
   module_enable(array('nm_integrative_content_types'));
 }
+
+/**
+ * Enable the nm-integrative views. Add permissions, roles, set up the wysiwyg.
+ */
+function integrative_general_update_7001() {
+  $module_list = array(
+    'nm_integrative_roles_and_permissions',
+    'nm_integrative_text_formats',
+    'nm_integrative_views',
+  );
+  module_enable($module_list);
+}
