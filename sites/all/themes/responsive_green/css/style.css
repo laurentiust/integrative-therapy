@@ -352,6 +352,7 @@ audio {
   float: left;
   position: absolute;
   margin-left: 70px;
+  z-index: 1000;
 }
 
 #site-title a,
