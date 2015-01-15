@@ -81,7 +81,11 @@ function nm_integrative_text_formats_wysiwyg_default_profiles() {
           'JustifyCenter' => 1,
           'JustifyRight' => 1,
           'JustifyBlock' => 1,
+          'Image' => 1,
           'PasteText' => 1,
+        ),
+        'imce' => array(
+          'imce' => 1,
         ),
       ),
       'toolbar_loc' => 'top',
