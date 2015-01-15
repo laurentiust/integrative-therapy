@@ -1853,3 +1853,7 @@ body {
   height: 26px;
   border-radius: 0px;
 }
+
+.node-despre-noi p {
+  font-size: 16px!important;
+}
