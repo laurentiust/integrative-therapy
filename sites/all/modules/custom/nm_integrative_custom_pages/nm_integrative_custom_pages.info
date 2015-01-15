@@ -1,0 +1,9 @@
+name = NM-Integrative Custom Pages
+description = This feature will handle the custom pages on the site.
+core = 7.x
+package = NM Integrative Therapy
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[page_manager_pages][] = galerie

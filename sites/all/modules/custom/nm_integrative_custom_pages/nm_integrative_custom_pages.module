@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NM-Integrative Custom Pages feature.
+ */
+
+include_once 'nm_integrative_custom_pages.features.inc';
