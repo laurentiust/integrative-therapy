@@ -328,7 +328,7 @@ function nm_integrative_content_types_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'weight' => 3,
     ),
   );
 
@@ -396,7 +396,7 @@ function nm_integrative_content_types_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 34,
+      'weight' => 5,
     ),
   );
 
@@ -446,7 +446,47 @@ function nm_integrative_content_types_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 32,
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-terapeuti-field_ordinea_afisarii_'
+  $field_instances['node-terapeuti-field_ordinea_afisarii_'] = array(
+    'bundle' => 'terapeuti',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ordinea_afisarii_',
+    'label' => 'Ordinea afisarii ',
+    'required' => 1,
+    'settings' => array(
+      'max' => '',
+      'min' => 1,
+      'prefix' => 'Al',
+      'suffix' => 'in lista',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 2,
     ),
   );
 
@@ -491,7 +531,7 @@ function nm_integrative_content_types_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'weight' => 3,
     ),
   );
 
@@ -559,7 +599,7 @@ function nm_integrative_content_types_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 33,
+      'weight' => 5,
     ),
   );
 
@@ -609,7 +649,47 @@ function nm_integrative_content_types_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 32,
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-tratamente-field_ordinea_afisarii_2'
+  $field_instances['node-tratamente-field_ordinea_afisarii_2'] = array(
+    'bundle' => 'tratamente',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ordinea_afisarii_2',
+    'label' => 'Ordinea afisarii ',
+    'required' => 1,
+    'settings' => array(
+      'max' => '',
+      'min' => 1,
+      'prefix' => 'Al',
+      'suffix' => 'in lista',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 2,
     ),
   );
 
@@ -626,6 +706,7 @@ function nm_integrative_content_types_field_default_field_instances() {
   t('Imagine terapeut');
   t('Imaginea va fi afisata pe pagina de oferte.');
   t('Imaginea va fi afisata pe pagina de terapii');
+  t('Ordinea afisarii ');
   t('Titlu');
 
   return $field_instances;
