@@ -351,7 +351,7 @@ audio {
 #logo {
   float: left;
   position: absolute;
-  margin-left: 70px;
+  margin-left: 35px;
   z-index: 1000;
 }
 
@@ -392,7 +392,7 @@ audio {
 }
 
 #main-menu {
-  max-width: 900px;
+  max-width: 865px;
   margin: 0 auto;
 
 }
