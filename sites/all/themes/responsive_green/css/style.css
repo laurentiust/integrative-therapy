@@ -333,6 +333,7 @@ audio {
 #header_wrapper {
   position: relative;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 #header {
@@ -353,6 +354,15 @@ audio {
   position: absolute;
   margin-left: 35px;
   z-index: 1000;
+}
+
+#logo2 {
+  z-index: 1000;
+  text-align: center;
+  /*margin-top: 100px;*/
+  position: absolute;
+  left: 47%;
+  margin-top: 10px;
 }
 
 #site-title a,

@@ -67,7 +67,8 @@
 
 <div id="header_wrapper">
   <header id="header" role="banner">
-    <?php if ($logo): ?><div id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>"/></a></div>
+      <div id="logo2"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="/sites/all/themes/responsive_green/images/nm_integrative_logo2.png"/></a></div>
+      <?php if ($logo): ?><div id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>"/></a></div>
     <?php endif; ?>
     <h1 id="site-title"><div id="site-description"><?php print $site_slogan; ?></div></h1>
       <?php if ($display): ?>
