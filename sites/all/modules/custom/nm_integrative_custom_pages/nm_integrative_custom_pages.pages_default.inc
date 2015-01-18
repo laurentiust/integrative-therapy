@@ -160,7 +160,33 @@ function nm_integrative_custom_pages_default_page_manager_pages() {
   $display->uuid = '6d0b7180-c5b3-4b82-a38c-2548194537d4';
   $display->content = array();
   $display->panels = array();
-  $display->hide_title = PANELS_TITLE_FIXED;
+    $pane = new stdClass();
+    $pane->pid = 'new-6367ec1d-c4ac-44b0-a112-bd61b1b3e00e';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<p>Disponibil in curand.</p>
+',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '6367ec1d-c4ac-44b0-a112-bd61b1b3e00e';
+    $display->content['new-6367ec1d-c4ac-44b0-a112-bd61b1b3e00e'] = $pane;
+    $display->panels['middle'][0] = 'new-6367ec1d-c4ac-44b0-a112-bd61b1b3e00e';
+  $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
