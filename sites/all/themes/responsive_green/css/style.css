@@ -353,7 +353,6 @@ audio {
   float: left;
   position: absolute;
   margin-left: 35px;
-  z-index: 1000;
 }
 
 #logo2 {
