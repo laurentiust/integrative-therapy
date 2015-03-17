@@ -32,6 +32,13 @@ function nm_integrative_views_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'grid';
   $handler->display->display_options['style_options']['columns'] = '3';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* No results behavior: Global: Text area */
+  $handler->display->display_options['empty']['area']['id'] = 'area';
+  $handler->display->display_options['empty']['area']['table'] = 'views';
+  $handler->display->display_options['empty']['area']['field'] = 'area';
+  $handler->display->display_options['empty']['area']['empty'] = TRUE;
+  $handler->display->display_options['empty']['area']['content'] = 'Disponibil in curand.';
+  $handler->display->display_options['empty']['area']['format'] = 'full_html';
   /* Field: Content: Imagine Oferta */
   $handler->display->display_options['fields']['field_imagine_oferta']['id'] = 'field_imagine_oferta';
   $handler->display->display_options['fields']['field_imagine_oferta']['table'] = 'field_data_field_imagine_oferta';
